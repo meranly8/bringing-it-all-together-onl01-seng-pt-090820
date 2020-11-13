@@ -46,7 +46,7 @@ class Dog
   end
 
   def self.create(name:, breed:)
-    dog = delf.new(name: name, breed: breed)
+    dog = self.new(name: name, breed: breed)
     dog.save
     dog
   end
